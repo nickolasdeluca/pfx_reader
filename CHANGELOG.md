@@ -1,4 +1,6 @@
-# 1.0.0
+# Versions
+
+## 1.0.0
 
 Initial release of `pfx_reader`.
 
@@ -28,3 +30,7 @@ Initial release of `pfx_reader`.
 
 - **Android**: uses `java.security.KeyStore` (PKCS12 provider) and `java.security.Signature`
 - **iOS**: uses `SecPKCS12Import` for import/signing, and a pure Swift ASN.1 DER parser for certificate field extraction (no macOS-only APIs, fully compatible with iOS simulator and device)
+
+## 1.0.1
+
+- Provide a proper README.
