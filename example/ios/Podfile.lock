@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
   integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
-  pfx_reader: c9aba9ed27bef65b19259199302f483d5f48cfe7
+  pfx_reader: b536fdab6a33798a4d995baac2e3b4e9df82a3ad
 
 PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
 

@@ -34,3 +34,7 @@ Initial release of `pfx_reader`.
 ## 1.0.1
 
 - Provide a proper README.
+
+## 1.0.2
+
+- Fix missmatch android package name.
