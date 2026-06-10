@@ -38,3 +38,8 @@ Initial release of `pfx_reader`.
 ## 1.0.2
 
 - Fix missmatch android package name.
+
+## 1.0.3
+
+- Implement `toJson()`.
+- BREAKING: Migrate `toMap()` to `toJson()`

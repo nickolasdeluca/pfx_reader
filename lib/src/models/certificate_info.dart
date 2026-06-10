@@ -43,7 +43,7 @@ class CertificateInfo {
     this.email,
   });
 
-  factory CertificateInfo.fromMap(Map<Object?, Object?> map) {
+  factory CertificateInfo.fromJson(Map<Object?, Object?> map) {
     return CertificateInfo(
       subjectDN: map['subjectDN'] as String? ?? '',
       issuerDN: map['issuerDN'] as String? ?? '',
@@ -64,12 +64,18 @@ class CertificateInfo {
     );
   }
 
-  @override
-  String toString() =>
-      'CertificateInfo('
-      'subject: $subjectDN, '
-      'issuer: $issuerDN, '
-      'notBefore: $notBefore, '
-      'notAfter: $notAfter, '
-      'serial: $serialNumber)';
+  Map<String, Object?> toJson() {
+    return {
+      'subjectDN': subjectDN,
+      'issuerDN': issuerDN,
+      'notBefore': notBefore.millisecondsSinceEpoch,
+      'notAfter': notAfter.millisecondsSinceEpoch,
+      'serialNumber': serialNumber,
+      'commonName': commonName,
+      'organization': organization,
+      'organizationalUnit': organizationalUnit,
+      'country': country,
+      'email': email,
+    };
+  }
 }

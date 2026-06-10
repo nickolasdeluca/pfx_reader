@@ -17,7 +17,7 @@ class MethodChannelPfxReader extends PfxReaderPlatform {
         'getCertificateInfoFromBytes',
         {'pfxBytes': bytes, 'password': password},
       );
-      return CertificateInfo.fromMap(result!);
+      return CertificateInfo.fromJson(result!);
     } on PlatformException catch (e) {
       throw PfxException(pfxErrorCodeFromString(e.code), e.message ?? e.code);
     }
@@ -33,7 +33,7 @@ class MethodChannelPfxReader extends PfxReaderPlatform {
         'getCertificateInfoFromFile',
         {'filePath': filePath, 'password': password},
       );
-      return CertificateInfo.fromMap(result!);
+      return CertificateInfo.fromJson(result!);
     } on PlatformException catch (e) {
       throw PfxException(pfxErrorCodeFromString(e.code), e.message ?? e.code);
     }
