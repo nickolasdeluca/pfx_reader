@@ -47,3 +47,7 @@ Initial release of `pfx_reader`.
 ## 1.0.4
 
 - Fix issue when building app bundles with this package.
+
+## 1.0.5
+
+- Rename package bundle name to avoid java reserved keyword.

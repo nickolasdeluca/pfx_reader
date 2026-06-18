@@ -1,6 +1,6 @@
 name: pfx_reader
 description: "Flutter plugin to read PKCS#12 (.pfx/.p12) certificate fields and sign data using the embedded private key. Supports Android and iOS."
-version: 1.0.4
+version: 1.0.5
 homepage: https://github.com/nickolasdeluca/pfx_reader
 repository: https://github.com/nickolasdeluca/pfx_reader
 
@@ -22,7 +22,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.pfx_reader.package
+        package: com.pfx_reader.plugin
         pluginClass: PfxReaderPlugin
       ios:
         pluginClass: PfxReaderPlugin
