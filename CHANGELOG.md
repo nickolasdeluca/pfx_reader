@@ -1,5 +1,31 @@
 # Versions
 
+## 1.0.6
+
+- Updates minimum supported SDK version to Flutter 3.44/Dart 3.12.
+- Migrates to built-in Kotlin.
+
+## 1.0.5
+
+- Rename package bundle name to avoid java reserved keyword.
+
+## 1.0.4
+
+- Fix issue when building app bundles with this package.
+
+## 1.0.3
+
+- Implement `toJson()`.
+- BREAKING: Migrate `toMap()` to `toJson()`
+
+## 1.0.2
+
+- Fix missmatch android package name.
+
+## 1.0.1
+
+- Provide a proper README.
+
 ## 1.0.0
 
 Initial release of `pfx_reader`.
@@ -30,24 +56,3 @@ Initial release of `pfx_reader`.
 
 - **Android**: uses `java.security.KeyStore` (PKCS12 provider) and `java.security.Signature`
 - **iOS**: uses `SecPKCS12Import` for import/signing, and a pure Swift ASN.1 DER parser for certificate field extraction (no macOS-only APIs, fully compatible with iOS simulator and device)
-
-## 1.0.1
-
-- Provide a proper README.
-
-## 1.0.2
-
-- Fix missmatch android package name.
-
-## 1.0.3
-
-- Implement `toJson()`.
-- BREAKING: Migrate `toMap()` to `toJson()`
-
-## 1.0.4
-
-- Fix issue when building app bundles with this package.
-
-## 1.0.5
-
-- Rename package bundle name to avoid java reserved keyword.
