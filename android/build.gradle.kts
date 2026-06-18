@@ -1,4 +1,4 @@
-group = "com.pfx_reader.package"
+group = "com.pfx_reader.plugin"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -27,7 +27,7 @@ plugins {
 }
 
 android {
-    namespace = "com.pfx_reader.package"
+    namespace = "com.pfx_reader.plugin"
 
     compileSdk = 36
 
