@@ -1,4 +1,4 @@
-package com.example.pfx_reader
+package com.pfx_reader.package
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.MethodCall

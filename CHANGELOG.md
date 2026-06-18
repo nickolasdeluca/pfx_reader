@@ -43,3 +43,7 @@ Initial release of `pfx_reader`.
 
 - Implement `toJson()`.
 - BREAKING: Migrate `toMap()` to `toJson()`
+
+## 1.0.4
+
+- Fix issue when building app bundles with this package.
